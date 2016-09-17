@@ -13,7 +13,7 @@ public class Category {
 	public int getCategoryId() {
 		return categoryId;
 	}
-	public void setCategoryId(int catego) {
+	public void setCategoryId(int categorrrrrrrrrrrrrrrrrrrry) {
 		this.categoryId = categoryId;
 	}
 	public String getCategoryName() {
