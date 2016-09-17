@@ -5,9 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 @Entity
 public class Category {
-	@Id
-	@Column(name="CATEGORY")
-	int category
+	
 	@Column(name="CATEGORY_NAME")
 	String categoryName;
 	public int getCategoryId() {
