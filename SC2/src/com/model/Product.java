@@ -22,7 +22,7 @@ public class Product {
 	Category category;	
 	double price;
 	String description;
-	int review;	
+	
 	@Lob
 	@Basic(fetch=FetchType.LAZY)
 	 protected byte[] image;
