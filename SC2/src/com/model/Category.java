@@ -7,7 +7,7 @@ import javax.persistence.Id;
 public class Category {
 	@Id
 	@Column(name="CATEGORY")
-	int categoryId;
+	int category
 	@Column(name="CATEGORY_NAME")
 	String categoryName;
 	public int getCategoryId() {
